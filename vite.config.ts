@@ -5,7 +5,7 @@ import { resolve } from 'path';
 
 const pathResolve = (pathStr: string) => {
   return resolve(__dirname, pathStr);
-}
+};
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -15,5 +15,5 @@ export default defineConfig({
       '@': pathResolve('./src'),
     },
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.vue', '.json'],
-  }
-})
+  },
+});
